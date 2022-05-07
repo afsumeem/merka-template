@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital&family=Montserrat:ital');
+
 .hero-section {
     width: 1462px;
     height: 946px;
@@ -503,4 +505,91 @@
     position: absolute;
     top: 0.78%;
     bottom: 99.1%;
+}
+
+/* box */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 56px;
+    height: 54px;
+    left: 36px;
+    top: 140px;
+}
+
+.box-text {
+    left: 2.68%;
+    right: 2.68%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+
+/* banner title  */
+.hero-text {
+    position: absolute;
+    width: 672px;
+    height: 345px;
+    top: 203px;
+    left: 155px;
+}
+
+.location {
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    color: #FFFFFF;
+}
+
+.banner-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.25);
+}
+
+.package {
+    position: absolute;
+    left: 576px;
+    top: 115px;
+}
+
+.package-img {
+    position: relative;
+}
+
+.package-1 {}
+
+.package-2 {
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+
+.package-3 {
+    position: absolute;
+    left: 45%;
+    right: 13.62%;
+    top: 42%;
+}
+
+.package-4 {
+    position: absolute;
+    left: 20%;
+    right: 31.25%;
+    top: 8%;
+    bottom: 60.83%;
 }

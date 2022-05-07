@@ -69,6 +69,10 @@ import headerVector66 from "../../images/headerVector-66.svg"
 import headerVector67 from "../../images/headerVector-67.svg"
 import headerVector68 from "../../images/headerVector-68.svg"
 import headerVector69 from "../../images/headerVector-69.svg"
+import package1 from "../../images/package1.svg"
+import package2 from "../../images/package2.svg"
+import package3 from "../../images/package3.svg"
+import package4 from "../../images/package4.svg"
 
 const HeroSection = () => {
     return (
@@ -145,6 +149,30 @@ const HeroSection = () => {
                 <img src={headerVector69} alt="headerVector1Img" className='header-vector69 header-vector' />
 
             </div>
+
+            <div className="box">
+                <p className='box-text'>PK194-ABI</p>
+                <p className='location'>San Francisco</p>
+                <div className='package-img'>
+                    <img src={package1} className="package-1" alt="" />
+                    <img src={package2} className="package-2" alt="" />
+                    <img src={package3} className="package-3" alt="" />
+                    <img src={package4} className="package-4" alt="" />
+                </div>
+            </div>
+
+            <div className="hero-text">
+                <h1 className='banner-title'>MERKLABS BLOCKCHAIN DEVELOPMENT AND SECURITY SOLUTIONS</h1>
+                <div className='package'>
+                    <div className='package-img'>
+                        <img src={package1} className="package-1" alt="" />
+                        <img src={package2} className="package-2" alt="" />
+                        <img src={package3} className="package-3" alt="" />
+                        <img src={package4} className="package-4" alt="" />
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     );
