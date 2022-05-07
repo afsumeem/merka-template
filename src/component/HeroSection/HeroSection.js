@@ -73,6 +73,9 @@ import package1 from "../../images/package1.svg"
 import package2 from "../../images/package2.svg"
 import package3 from "../../images/package3.svg"
 import package4 from "../../images/package4.svg"
+import stepper1 from "../../images/stepper-1.svg"
+import stepper2 from "../../images/stepper-2.svg"
+import exploreMore from "../../images/button.svg"
 
 const HeroSection = () => {
     return (
@@ -171,8 +174,22 @@ const HeroSection = () => {
                         <img src={package4} className="package-4" alt="" />
                     </div>
                 </div>
+                <div className='explore-more-button'>
+                    <div className='button'>
+                        <img src={exploreMore} className="button-border" alt="" />
+                        <p className='button-text'>Explore More</p>
+                    </div>
+                </div>
             </div>
+            <div className='stepper-status'>
+                <div className='stepper'>
+                    <img src={stepper1} className="stepper-1" alt="" />
+                    <img src={stepper2} className="stepper-2" alt="" />
+                    <img src={stepper2} className="stepper-3" alt="" />
+                    <img src={stepper2} className="stepper-4" alt="" />
 
+                </div>
+            </div>
 
         </div>
     );
