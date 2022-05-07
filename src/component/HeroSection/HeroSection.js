@@ -76,6 +76,10 @@ import package4 from "../../images/package4.svg"
 import stepper1 from "../../images/stepper-1.svg"
 import stepper2 from "../../images/stepper-2.svg"
 import exploreMore from "../../images/button.svg"
+import socialLine from "../../images/Line 2.svg"
+import facebook from "../../images/facebook.svg"
+import insta from "../../images/insta.svg"
+import twitter from "../../images/tweeter.svg"
 
 const HeroSection = () => {
     return (
@@ -152,7 +156,7 @@ const HeroSection = () => {
                 <img src={headerVector69} alt="headerVector1Img" className='header-vector69 header-vector' />
 
             </div>
-
+            {/* box */}
             <div className="box">
                 <p className='box-text'>PK194-ABI</p>
                 <p className='location'>San Francisco</p>
@@ -163,7 +167,7 @@ const HeroSection = () => {
                     <img src={package4} className="package-4" alt="" />
                 </div>
             </div>
-
+            {/* hero text */}
             <div className="hero-text">
                 <h1 className='banner-title'>MERKLABS BLOCKCHAIN DEVELOPMENT AND SECURITY SOLUTIONS</h1>
                 <div className='package'>
@@ -176,12 +180,13 @@ const HeroSection = () => {
                 </div>
                 <div className='explore-more-button'>
                     <div className='button'>
-                        <p className='button-text'>Explore More</p>
                         <img src={exploreMore} className="button-border" alt="" />
-
+                        <p className='button-text'>Explore More</p>
                     </div>
                 </div>
             </div>
+
+            {/* stepper text */}
             <div className='stepper-status'>
                 <div className='stepper'>
                     <img src={stepper1} className="stepper-1" alt="" />
@@ -191,6 +196,23 @@ const HeroSection = () => {
                     <img src={stepper2} className="stepper-5" alt="" />
 
                 </div>
+            </div>
+
+            {/* social media icon */}
+            <div className="social-media">
+                <div className='social-media-content'>
+                    <div className="icons">
+                        <img src={facebook} className="facebook" alt="" />
+                        <img src={insta} className="insta" alt="" />
+                        <img src={twitter} className="twitter" alt="" />
+                    </div>
+                    <div>
+                        <img src={socialLine} className="line" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div>
+
             </div>
 
         </div>
