@@ -80,6 +80,7 @@ import socialLine from "../../images/Line 2.svg"
 import facebook from "../../images/facebook.svg"
 import insta from "../../images/insta.svg"
 import twitter from "../../images/tweeter.svg"
+import wave from "../../images/wave.svg"
 
 const HeroSection = () => {
     return (
@@ -170,6 +171,7 @@ const HeroSection = () => {
             {/* hero text */}
             <div className="hero-text">
                 <h1 className='banner-title'>MERKLABS BLOCKCHAIN DEVELOPMENT AND SECURITY SOLUTIONS</h1>
+                <p className='banner-paragraph'>We provide blockchain development services and also assure you comprehensive security in blockchain development</p>
                 <div className='package'>
                     <div className='package-img'>
                         <img src={package1} className="package-1" alt="" />
@@ -211,7 +213,10 @@ const HeroSection = () => {
             </div>
 
             {/* hero waves */}
-            <div>
+            <div className='hero-waves'>
+                <div>
+                    <img src={wave} className="wave" alt="" />
+                </div>
 
             </div>
             <div>

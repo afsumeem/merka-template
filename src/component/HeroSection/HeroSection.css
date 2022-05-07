@@ -714,3 +714,20 @@
     margin: auto;
     margin-top: 222px;
 }
+
+/* hero waves */
+
+.hero-waves {
+    position: absolute;
+    /* top: 594px; */
+    width: 100%;
+    height: 231.28px;
+    bottom: 95px;
+}
+
+.wave {
+    display: block;
+    margin: auto;
+    width: 1066.5px;
+    height: 135.78px;
+}
