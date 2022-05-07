@@ -242,7 +242,13 @@ const HeroSection = () => {
             </div>
 
             <div className='partner'>
-                <div></div>
+                <div className='partner-container'>
+                    <img src={partner} className="partner-box" alt="" />
+                    <p className='partner-section-title'>Trusted by Leading Dapp Teams and Enterprises</p>
+                    <div className='company-logo'>
+
+                    </div>
+                </div>
             </div>
 
         </div>
