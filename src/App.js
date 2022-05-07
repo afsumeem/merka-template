@@ -1,8 +1,10 @@
+import HeroSection from "./component/HeroSection/HeroSection";
+
 function App() {
   return (
-    <div>
-
-    </div>
+    <>
+      <HeroSection />
+    </>
   );
 }
 
