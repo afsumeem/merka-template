@@ -81,6 +81,14 @@ import facebook from "../../images/facebook.svg"
 import insta from "../../images/insta.svg"
 import twitter from "../../images/tweeter.svg"
 import wave from "../../images/wave.svg"
+import circle from "../../images/circle1.svg"
+import people1 from "../../images/people1.svg"
+import people2 from "../../images/people2.svg"
+import people3 from "../../images/people-3.svg"
+import people4 from "../../images/people-4.svg"
+import rectangle from "../../images/Rectangle 6.svg"
+import rectangle2 from "../../images/Rectangle-2.svg"
+import partner from "../../images/partner.svg"
 
 const HeroSection = () => {
     return (
@@ -214,13 +222,27 @@ const HeroSection = () => {
 
             {/* hero waves */}
             <div className='hero-waves'>
-                <div>
+                <div className='wave-content'>
                     <img src={wave} className="wave" alt="" />
+                    <img src={circle} className="circle-1" alt="" />
+                    <img src={circle} className="circle-2" alt="" />
+                    <img src={circle} className="circle-3" alt="" />
+                    <img src={circle} className="circle-4" alt="" />
+                    <img src={rectangle} className="rectangle-1" alt="" />
+                    <img src={people1} className="people-1" alt="" />
+                    <img src={rectangle2} className="rectangle-2" alt="" />
+
+                    <img src={people2} className="people-2" alt="" />
+                    <img src={rectangle} className="rectangle-3" alt="" />
+                    <img src={people3} className="people-3" alt="" />
+                    <img src={rectangle2} className="rectangle-4" alt="" />
+                    <img src={people4} className="people-4" alt="" />
                 </div>
 
             </div>
-            <div>
 
+            <div className='partner'>
+                <div></div>
             </div>
 
         </div>
