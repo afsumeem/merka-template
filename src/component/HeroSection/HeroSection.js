@@ -200,16 +200,19 @@ const HeroSection = () => {
 
             {/* social media icon */}
             <div className="social-media">
-                <div className='social-media-content'>
-                    <div className="icons">
-                        <img src={facebook} className="facebook" alt="" />
-                        <img src={insta} className="insta" alt="" />
-                        <img src={twitter} className="twitter" alt="" />
-                    </div>
-                    <div>
-                        <img src={socialLine} className="line" alt="" />
-                    </div>
+                <div className="icons">
+                    <img src={facebook} className="facebook" alt="" />
+                    <img src={insta} className="insta" alt="" />
+                    <img src={twitter} className="twitter" alt="" />
                 </div>
+                <div>
+                    <img src={socialLine} className="line" alt="" />
+                </div>
+            </div>
+
+            {/* hero waves */}
+            <div>
+
             </div>
             <div>
 

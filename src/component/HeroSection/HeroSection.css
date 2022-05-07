@@ -683,12 +683,9 @@
 .social-media {
     position: absolute;
     width: 32px;
+    height: 351px;
     right: 35px;
     top: 306px;
-}
-
-.social-media-content {
-    /* position: relative; */
 }
 
 .icons {
@@ -699,21 +696,21 @@
 
 .facebook {
     position: absolute;
-    bottom: 147px;
+    top: 2px;
 }
 
 .insta {
     position: absolute;
-    bottom: 74px;
+    top: 74px;
 }
 
 .twitter {
     position: absolute;
-    bottom: 0px;
+    top: 148px;
 }
 
 .line {
     display: block;
     margin: auto;
-    padding-top: 74px;
+    margin-top: 222px;
 }
