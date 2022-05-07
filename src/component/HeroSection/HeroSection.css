@@ -617,22 +617,31 @@
     height: 20px;
     left: 2px;
     top: 0px;
-    /* margin: 28px 0px; */
+    margin: 28px 0px;
 }
 
 .stepper-2 {
     position: absolute;
     top: 48px;
+    margin: 28px 0px;
 }
 
 .stepper-3 {
     position: absolute;
     top: 80px;
+    margin: 28px 0px;
 }
 
 .stepper-4 {
     position: absolute;
-    top: 120px;
+    top: 112px;
+    margin: 28px 0px;
+}
+
+.stepper-5 {
+    position: absolute;
+    top: 144px;
+    margin: 28px 0px;
 }
 
 /* explore more button */
@@ -645,12 +654,9 @@
 }
 
 .button-text {
-    position: absolute;
-    width: 113px;
-    height: 20px;
-    left: 199px;
-    top: 538px;
-    font-family: 'Poppins';
+    margin-left: 20px;
+    margin-top: 44px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;

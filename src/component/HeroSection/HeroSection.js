@@ -176,8 +176,9 @@ const HeroSection = () => {
                 </div>
                 <div className='explore-more-button'>
                     <div className='button'>
-                        <img src={exploreMore} className="button-border" alt="" />
                         <p className='button-text'>Explore More</p>
+                        <img src={exploreMore} className="button-border" alt="" />
+
                     </div>
                 </div>
             </div>
@@ -187,6 +188,7 @@ const HeroSection = () => {
                     <img src={stepper2} className="stepper-2" alt="" />
                     <img src={stepper2} className="stepper-3" alt="" />
                     <img src={stepper2} className="stepper-4" alt="" />
+                    <img src={stepper2} className="stepper-5" alt="" />
 
                 </div>
             </div>
