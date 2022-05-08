@@ -877,3 +877,63 @@
     color: #FFFFFF;
     text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.25);
 }
+
+.company-logo {
+    position: absolute;
+    bottom: 36px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.logo-name {
+    width: 37.68px;
+    height: 33.46px;
+}
+
+.aragon-logo {
+    position: relative;
+}
+
+.logo-1,
+.logo-2,
+.logo-3,
+.logobg {
+    position: absolute;
+}
+
+.logobg {
+    left: 0;
+    bottom: 0;
+}
+
+
+.logo-1 {
+    left: 40px;
+    top: 15px;
+}
+
+.logo-2 {
+    left: 10px;
+    top: 7px;
+}
+
+.logo-3 {
+    bottom: 7px;
+    left: 3px;
+}
+
+.logo-4 {
+    margin-left: -15px;
+}
+
+.covantis-logo {
+    position: relative;
+}
+
+.logo17 {
+    position: absolute;
+    right: 21px;
+}

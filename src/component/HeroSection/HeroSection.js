@@ -89,6 +89,22 @@ import people4 from "../../images/people-4.svg"
 import rectangle from "../../images/Rectangle 6.svg"
 import rectangle2 from "../../images/Rectangle-2.svg"
 import partner from "../../images/partner.svg"
+import aave1 from "../../images/aave.svg"
+import aave2 from "../../images/aave2.svg"
+import aave3 from "../../images/aave-3.svg"
+import logobg from "../../images/logo-bg.svg"
+import logo1 from "../../images/logo-1.svg"
+import logo2 from "../../images/logo-2.svg"
+import logo3 from "../../images/logo-3.svg"
+import logo4 from "../../images/logo-4.svg"
+import logo11 from "../../images/logo11.svg"
+import logo12 from "../../images/logo12.svg"
+import logo13 from "../../images/logo13.svg"
+import logo14 from "../../images/logo14.svg"
+import logo15 from "../../images/logo15.svg"
+import logo16 from "../../images/logo16.svg"
+import logo17 from "../../images/logo17.svg"
+import logo18 from "../../images/logo-18.svg"
 
 const HeroSection = () => {
     return (
@@ -246,6 +262,33 @@ const HeroSection = () => {
                     <img src={partner} className="partner-box" alt="" />
                     <p className='partner-section-title'>Trusted by Leading Dapp Teams and Enterprises</p>
                     <div className='company-logo'>
+                        <div className='aave-logo'>
+                            <img src={aave1} className="logo-name" alt="company-logo" />
+                            <img src={aave1} className="logo-name" alt="company-logo" />
+                            <img src={aave3} className="logo-name" alt="company-logo" />
+                            <img src={aave2} className="logo-name" alt="company-logo" />
+                        </div>
+                        <div className='aragon-logo'>
+                            <img src={logobg} className="logo-bg" alt="" />
+                            <img src={logo1} alt="" className="logo-1" />
+                            <img src={logo2} alt="" className="logo-2" />
+                            <img src={logo3} alt="" className='logo-3' />
+
+                        </div>
+                        <img src={logo4} alt="" className='logo-4' />
+                        <div className='covantis-logo'>
+                            <img src={logo11} alt="" className="logo11" />
+                            <img src={logo12} alt="" className="logo12" />
+                            <img src={logo13} alt="" className="logo13" />
+                            <img src={logo14} alt="" className="logo14" />
+                            <img src={logo15} alt="" className="logo15" />
+                            <img src={logo17} alt="" className="logo17" />
+                            <img src={logo16} alt="" className="logo16" />
+                            <img src={logo18} alt="" className="logo18" />
+                        </div>
+                        <div className='omisego-logo'>
+
+                        </div>
 
                     </div>
                 </div>
