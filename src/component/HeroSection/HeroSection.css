@@ -12,499 +12,434 @@
 
 
 .header {
-    width: 100%;
-    height: 96px;
     position: relative;
+    width: 100vw;
+    height: 96px;
 }
 
 .header-vector {
     transform: rotate(-180deg);
     width: 100%;
+    position: absolute;
+    left: 0;
 }
 
 .header-vector1 {
     margin-top: 12px;
-    width: 100%;
-    position: absolute;
     top: 0.09%;
     bottom: 99.91%;
 }
 
 .header-vector2 {
-    height: 1.14px;
-    width: 100%;
-    position: absolute;
+    margin-top: 15.83px;
     top: 0.11%;
     bottom: 99.88%;
 }
 
 .header-vector3 {
-    height: 2.1px;
-    position: absolute;
+    margin-top: 19.23px;
     top: 0.14%;
     bottom: 99.85%;
 }
 
 .header-vector4 {
-    height: 3.51px;
-    position: absolute;
     top: 0.16%;
+    margin-top: 22.57px;
     bottom: 99.81%;
 }
 
 .header-vector5 {
-    height: 5.85px;
-    position: absolute;
+    margin-top: 26.45px;
     top: 0.19%;
     bottom: 99.77%;
 }
 
 .header-vector6 {
-    height: 8.42px;
-    position: absolute;
+    margin-top: 30.25px;
     top: 0.22%;
     bottom: 99.72%;
 }
 
 .header-vector7 {
-    height: 11.54px;
-    position: absolute;
+    margin-top: 34.37px;
     top: 0.25%;
     bottom: 99.67%;
 }
 
 .header-vector8 {
-    height: 14.81px;
-    position: absolute;
+    margin-top: 38.5px;
     top: 0.28%;
     bottom: 99.62%;
 }
 
 .header-vector9 {
-    height: 18.1px;
-    position: absolute;
+    margin-top: 42.57px;
     top: 0.31%;
     bottom: 99.56%;
 }
 
 .header-vector10 {
-    height: 21.23px;
-    position: absolute;
+    margin-top: 46.51px;
     top: 0.33%;
     bottom: 99.51%;
 }
 
 .header-vector11 {
-    height: 24.33px;
-    position: absolute;
     top: 0.36%;
+    margin-top: 50.54px;
     bottom: 99.46%;
 }
 
 .header-vector12 {
-    height: 26.71px;
-    position: absolute;
     top: 0.39%;
+    margin-top: 54.02px;
     bottom: 99.42%;
 }
 
 .header-vector13 {
-    height: 28.48px;
-    position: absolute;
     top: 0.41%;
     bottom: 99.38%;
+    margin-top: 57.14px;
 }
 
 .header-vector14 {
-    height: 29.44px;
-    position: absolute;
     top: 0.43%;
     bottom: 99.36%;
+    margin-top: 59.82px;
 }
 
 .header-vector15 {
-    height: 29.87px;
-    position: absolute;
+    margin-top: 62.34px;
     top: 0.45%;
     bottom: 99.34%;
 }
 
 .header-vector16 {
-    height: 30.32px;
-    position: absolute;
     top: 0.47%;
     bottom: 99.31%;
+    margin-top: 64.87px;
 }
 
 .header-vector17 {
-    height: 30.57px;
-    position: absolute;
     top: 0.48%;
     bottom: 99.3%;
+    margin-top: 67.14px;
 }
 
 .header-vector18 {
-    height: 30.66px;
-    position: absolute;
     top: 0.5%;
     bottom: 99.28%;
+    margin-top: 69.18px;
 }
 
 .header-vector19 {
-    height: 30.6px;
-    position: absolute;
+    /* height: 30.6px; */
     top: 0.51%;
     bottom: 99.27%;
+    margin-top: 71.01px;
 }
 
 .header-vector20 {
-    height: 30.4px;
-    position: absolute;
     top: 0.52%;
     bottom: 99.26%;
+    margin-top: 72.65px;
 }
 
 .header-vector21 {
-    height: 29.92px;
-    position: absolute;
     top: 0.53%;
     bottom: 99.25%;
+    margin-top: 73.94px;
 }
 
 .header-vector22 {
-    height: 29.6px;
-    position: absolute;
     top: 0.54%;
     bottom: 99.24%;
+    margin-top: 75.35px;
 }
 
 .header-vector23 {
-    height: 29.22px;
-    position: absolute;
     top: 0.55%;
     bottom: 99.24%;
+    margin-top: 76.65px;
 }
 
 .header-vector24 {
-    height: 28.81px;
-    position: absolute;
     top: 0.56%;
     bottom: 99.23%;
+    margin-top: 77.86px;
 }
 
 .header-vector25 {
-    height: 28.37px;
-    position: absolute;
     top: 0.57%;
     bottom: 99.23%;
+    margin-top: 79.02px;
 }
 
 .header-vector26 {
-    height: 27.93px;
-    position: absolute;
     top: 0.58%;
+    margin-top: 80.14px;
     bottom: 99.22%;
 }
 
 .header-vector27 {
-    height: 27.35px;
-    position: absolute;
+    margin-top: 81.09px;
     top: 0.58%;
     bottom: 99.22%;
 }
 
 .header-vector28 {
-    height: 26.94px;
-    position: absolute;
     top: 0.59%;
+    margin-top: 82.18px;
     bottom: 99.21%;
 }
 
 .header-vector29 {
-    height: 26.57px;
-    position: absolute;
     top: 0.6%;
+    margin-top: 83.29px;
     bottom: 99.21%;
 }
 
 .header-vector30 {
-    height: 26.29px;
-    position: absolute;
     top: 0.61%;
     bottom: 99.2%;
+    margin-top: 84.46px;
 }
 
 .header-vector31 {
-    height: 26.05px;
-    position: absolute;
     top: 0.62%;
+    margin-top: 85.69px;
     bottom: 99.2%;
 }
 
 .header-vector32 {
-    height: 25.93px;
-    position: absolute;
     top: 0.63%;
+    margin-top: 87.02px;
     bottom: 99.19%;
 }
 
 .header-vector33 {
-    height: 25.89px;
-    position: absolute;
     top: 0.64%;
+    margin-top: 88.42px;
     bottom: 99.18%;
 }
 
 .header-vector34 {
-    height: 25.73px;
-    position: absolute;
     top: 0.65%;
+    margin-top: 89.74px;
     bottom: 99.17%;
 }
 
 .header-vector35 {
-    height: 25.49px;
-    position: absolute;
     top: 0.65%;
     bottom: 99.16%;
+    margin-top: 90.99px;
 }
 
 .header-vector36 {
-    height: 25.14px;
-    position: absolute;
     top: 0.66%;
+    margin-top: 92.15px;
     bottom: 99.16%;
 }
 
 .header-vector37 {
-    height: 24.71px;
-    position: absolute;
+    margin-top: 93.24px;
     top: 0.67%;
     bottom: 99.15%;
 }
 
 .header-vector38 {
-    height: 24.2px;
-    position: absolute;
+    margin-top: 94.27px;
     top: 0.68%;
     bottom: 99.15%;
 }
 
 .header-vector39 {
-    height: 23.62px;
-    position: absolute;
+    margin-top: 95.22px;
     top: 0.69%;
     bottom: 99.14%;
 }
 
 .header-vector40 {
-    height: 22.97px;
-    position: absolute;
+    margin-top: 96.1px;
     top: 0.69%;
     bottom: 99.14%;
 }
 
 .header-vector41 {
-    height: 22.25px;
-    position: absolute;
     top: 0.7%;
     bottom: 99.14%;
+    margin-top: 96.93px;
 }
 
 .header-vector42 {
-    height: 21.5px;
-    position: absolute;
     top: 0.7%;
     bottom: 99.14%;
+    margin-top: 97.68px;
 }
 
 .header-vector43 {
-    height: 20.68px;
-    position: absolute;
     top: 0.71%;
     bottom: 99.14%;
+    margin-top: 98.38px;
 }
 
 .header-vector44 {
-    height: 19.87px;
-    position: absolute;
     top: 0.71%;
     bottom: 99.14%;
+    margin-top: 98.38px;
 }
 
 .header-vector45 {
-    height: 19px;
-    position: absolute;
     top: 0.72%;
+    margin-top: 99.61px;
     bottom: 99.15%;
 }
 
 .header-vector46 {
-    height: 18.15px;
-    position: absolute;
     top: 0.72%;
     bottom: 99.15%;
+    margin-top: 100.15px;
 }
 
 .header-vector47 {
-    height: 17.3px;
-    position: absolute;
     top: 0.72%;
     bottom: 99.15%;
+    margin-top: 100.63px;
 }
 
 .header-vector48 {
-    height: 16.4px;
-    position: absolute;
+    width: 100%;
+    margin-top: 101.06px;
     top: 0.73%;
     bottom: 99.15%;
 }
 
 .header-vector49 {
     height: 15.85px;
-    position: absolute;
     top: 0.73%;
     bottom: 99.16%;
+    margin-top: 101.47px;
 }
 
 .header-vector50 {
-    height: 15.16px;
-    position: absolute;
     top: 0.73%;
     bottom: 99.16%;
+    margin-top: 101.82px;
 }
 
 .header-vector51 {
-    height: 14.62px;
-    position: absolute;
     top: 0.73%;
+    margin-top: 102.12px;
     bottom: 99.16%;
 }
 
 .header-vector52 {
-    height: 14.18px;
-    position: absolute;
     top: 0.74%;
     bottom: 99.16%;
+    margin-top: 102.39px;
 }
 
 .header-vector53 {
-    height: 13.81px;
-    position: absolute;
+    margin-top: 102.64px;
     top: 0.74%;
     bottom: 99.16%;
 }
 
 .header-vector54 {
-    height: 13.5px;
-    position: absolute;
     top: 0.74%;
     bottom: 99.16%;
+    margin-top: 102.85px;
 }
 
 .header-vector55 {
-    height: 13.25px;
-    position: absolute;
     top: 0.74%;
+    margin-top: 103.03px;
     bottom: 99.16%;
 }
 
 .header-vector56 {
-    height: 13.26px;
-    position: absolute;
     top: 0.74%;
     bottom: 99.16%;
+    margin-top: 103.41px;
 }
 
 .header-vector57 {
-    height: 13.62px;
-    position: absolute;
     top: 0.75%;
+    margin-top: 104.06px;
     bottom: 99.15%;
 }
 
 .header-vector58 {
-    height: 13.98px;
-    position: absolute;
     top: 0.75%;
     bottom: 99.15%;
+    margin-top: 104.67px;
 }
 
 .header-vector59 {
-    height: 14.35px;
-    position: absolute;
     top: 0.76%;
     bottom: 99.14%;
+    margin-top: 105.22px;
 }
 
 .header-vector60 {
-    height: 14.73px;
-    position: absolute;
     top: 0.76%;
+    margin-top: 105.74px;
     bottom: 99.13%;
 }
 
 .header-vector61 {
     height: 15.09px;
-    position: absolute;
+    margin-top: 106.19px;
     top: 0.76%;
     bottom: 99.13%;
 }
 
 .header-vector62 {
-    height: 15.43px;
-    position: absolute;
     top: 0.77%;
     bottom: 99.12%;
+    margin-top: 106.6px;
 }
 
 .header-vector63 {
-    height: 15.75px;
-    position: absolute;
     top: 0.77%;
     bottom: 99.12%;
+    margin-top: 106.96px;
 }
 
 .header-vector64 {
-    height: 16.04px;
-    position: absolute;
     top: 0.77%;
     bottom: 99.11%;
+    margin-top: 107.27px;
 }
 
 .header-vector65 {
-    height: 16.32px;
-    position: absolute;
     top: 0.77%;
     bottom: 99.11%;
+    margin-top: 107.53px;
 }
 
 .header-vector66 {
-    height: 16.53px;
-    position: absolute;
     top: 0.78%;
     bottom: 99.11%;
+    margin-top: 107.73px;
 }
 
 .header-vector67 {
-    height: 16.71px;
-    position: absolute;
     top: 0.78%;
+    margin-top: 107.87px;
     bottom: 99.1%;
 }
 
 .header-vector68 {
-    height: 16.82px;
-    position: absolute;
     top: 0.78%;
+    margin-top: 107.97px;
     bottom: 99.1%;
 }
 
 .header-vector69 {
-    height: 16.73px;
-    position: absolute;
     top: 0.78%;
     bottom: 99.1%;
+    margin-top: 108px;
 }
 
 /* box */
@@ -872,7 +807,7 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 25px;
     line-height: 34px;
     color: #FFFFFF;
     text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.25);
@@ -881,11 +816,11 @@
 .company-logo {
     position: absolute;
     bottom: 36px;
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 30px;
+    column-gap: 40px;
 }
 
 .logo-name {
@@ -925,8 +860,9 @@
     left: 3px;
 }
 
+
 .logo-4 {
-    margin-left: -15px;
+    margin-left: -40px
 }
 
 .covantis-logo {
@@ -936,4 +872,14 @@
 .logo17 {
     position: absolute;
     right: 21px;
+}
+
+.omisego-logo {
+    position: relative;
+}
+
+.logo26 {
+    position: absolute;
+    bottom: -20px;
+    right: 30px;
 }

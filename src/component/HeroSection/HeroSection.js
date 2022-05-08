@@ -105,6 +105,13 @@ import logo15 from "../../images/logo15.svg"
 import logo16 from "../../images/logo16.svg"
 import logo17 from "../../images/logo17.svg"
 import logo18 from "../../images/logo-18.svg"
+import logo20 from "../../images/logo20.svg"
+import logo21 from "../../images/logo21.svg"
+import logo22 from "../../images/logo22.svg"
+import logo23 from "../../images/logo23.svg"
+import logo24 from "../../images/logo24.svg"
+import logo25 from "../../images/logo25.svg"
+import logo26 from "../../images/logo26.svg"
 
 const HeroSection = () => {
     return (
@@ -180,6 +187,14 @@ const HeroSection = () => {
                 <img src={headerVector68} alt="headerVector1Img" className='header-vector68 header-vector' />
                 <img src={headerVector69} alt="headerVector1Img" className='header-vector69 header-vector' />
 
+            </div>
+            <div className="navbar">
+                <div className="logo">
+
+                </div>
+                <div className="menu-items">
+
+                </div>
             </div>
             {/* box */}
             <div className="box">
@@ -287,7 +302,14 @@ const HeroSection = () => {
                             <img src={logo18} alt="" className="logo18" />
                         </div>
                         <div className='omisego-logo'>
-
+                            <img src={logo20} alt="" className="logo20" />
+                            <img src={logo21} alt="" className="logo21" />
+                            <img src={logo22} alt="" className="logo22" />
+                            <img src={logo23} alt="" className="logo23" />
+                            <img src={logo24} alt="" className="logo24" />
+                            <img src={logo25} alt="" className="logo25" />
+                            <img src={logo26} alt="" className="logo26" />
+                            <img src={logo26} alt="" className="logo27" />
                         </div>
 
                     </div>
