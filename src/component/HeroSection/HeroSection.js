@@ -89,9 +89,10 @@ const HeroSection = () => {
             {/* social media icon */}
             <div className="social-media">
                 <div className="icons">
-                    <img src={facebook} className="facebook" alt="" />
-                    <img src={insta} className="insta" alt="" />
-                    <img src={twitter} className="twitter" alt="" />
+                    <a href="#"> <img src={facebook} className="facebook" alt="" /></a>
+                    <a href="#"><img src={insta} className="insta" alt="" /></a>
+                    <a href="#">  <img src={twitter} className="twitter" alt="" /></a>
+
                 </div>
                 <div>
                     <img src={socialLine} className="line" alt="" />

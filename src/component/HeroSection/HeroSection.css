@@ -37,6 +37,7 @@
     color: #FFFFFF;
     padding-left: 155px;
     width: 118px;
+    cursor: pointer;
 }
 
 .menu-items {
@@ -60,6 +61,12 @@
     line-height: 24px;
     color: #FFFFFF;
     text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu-items ul li:hover {
+    color: cyan;
 }
 
 .menubar {
@@ -248,6 +255,7 @@
 
 .button {
     position: relative;
+    cursor: pointer;
     /* margin-bottom: 20px; */
 }
 
@@ -271,6 +279,11 @@
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+    transition: 0.5s;
+}
+
+.button-text:hover {
+    color: aquamarine;
 }
 
 /* social media icons */
@@ -467,91 +480,5 @@
 
     .logo {
         padding-left: 155px;
-    }
-}
-
-@media only screen and (min-width: 769px) {
-    .banner-paragraph {
-        width: 500px;
-        padding-left: 150px;
-        display: block;
-        margin: auto;
-        margin-bottom: 42px;
-        font-weight: 500;
-        font-size: 15px;
-
-
-    }
-
-    .banner-title {
-        font-size: 35px;
-        font-weight: 900;
-        margin-left: 150px;
-        margin-top: 70px;
-    }
-
-    .bitcoin-logo {
-        height: 200px;
-        width: 200px;
-        margin-left: 0;
-        margin-top: 50px;
-
-    }
-
-    .explore-more-button {
-        display: block;
-        margin: auto;
-    }
-
-    .companyLogo {
-        width: 80%;
-    }
-
-    .company-logo {
-        position: absolute;
-        bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .banner-paragraph {
-        width: 596px;
-        height: 60px;
-        margin-bottom: 42px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 17px;
-        line-height: 30px;
-
-    }
-
-    .banner-title {
-        font-size: 35px;
-        font-weight: 900;
-        margin-top: 70px;
-    }
-
-    .bitcoin-logo {
-        height: auto;
-        width: auto;
-        margin-left: 0;
-        margin-top: 0;
-
-    }
-
-    .explore-more-button {
-        width: 165px;
-        height: 60px;
-        margin-left: 22px;
-        margin-bottom: 27px;
-    }
-
-    .companyLogo {
-        width: 100%;
-    }
-
-    .company-logo {
-        position: absolute;
-        bottom: 36px;
     }
 }
